@@ -1,0 +1,14 @@
+div{
+    background-color: aqua;
+    margin: 50px;
+    padding: 10px;
+}
+
+p{
+    color: black;
+    font-size: larger;
+}
+
+.button{
+    margin-left: 20px;
+}
