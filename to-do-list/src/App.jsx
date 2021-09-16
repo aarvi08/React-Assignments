@@ -11,6 +11,8 @@ const App = () => {
   const itemEvent = (event) => { setInputList(event.target.value)};
 
   const listItem = () => {
+    if (inputList.trim().lenght === 0)
+{return;}
     setItems ((oldItems) => {
       return [...oldItems, inputList];
     });
